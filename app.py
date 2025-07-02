@@ -3,9 +3,11 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import os
+import webbrowser
+import threading
 
 app = Flask(__name__)
-model = load_model('rice_model.h5')  # Make sure this is correct
+model = load_model('rice_model.h5')
 
 # Rice class labels
 class_names = ['Basmati', 'Jasmine', 'Arborio', 'Ipsala', 'Karacadag']
@@ -41,5 +43,10 @@ def home():
 
     return render_template('index.html', prediction=prediction, filename=filename)
 
+
+def open_browser():
+    webbrowser.open_new("http://127.0.0.1:5000")
+
 if __name__ == '__main__':
+    threading.Timer(1.25, open_browser).start()
     app.run(debug=True)
