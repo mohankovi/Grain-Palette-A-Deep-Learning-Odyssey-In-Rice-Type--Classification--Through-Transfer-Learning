@@ -53,3 +53,21 @@ GrainPalette/
 └── README.md 
 
 
+
+
+
+
+## 🎥 Project Demo
+
+Here is a demonstration of our project **GrainPalette**:
+
+▶️ [Watch the Demo Video](https://drive.google.com/file/d/1YD1ZODBOgqSLtat_FuMgRscHJrDMI512/view?usp=drive_link)
+
+This video explains:
+
+- Team members
+- Running the Flask app
+- Uploading image and rice type prediction demo
+
+
+
