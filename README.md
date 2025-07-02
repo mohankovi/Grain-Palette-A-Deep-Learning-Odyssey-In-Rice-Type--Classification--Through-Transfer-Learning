@@ -4,7 +4,8 @@ A Deep Learning project for classifying rice types using image recognition and t
 
 ## 📸 Demo
 
-![GrainPalette UI Screenshot](static/demo_screenshot.jpg) 
+![GrainPalette UI Screenshot](static/demo_screenshot.png)
+
 
 **🔗 Live Preview (Localhost):** `http://127.0.0.1:5000`
 
